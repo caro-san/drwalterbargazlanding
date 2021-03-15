@@ -1,0 +1,152 @@
+/****** Estilos de la Galeria *********/
+
+.titu-casos .titulo {
+    color: #0c084c;
+    text-align: center;
+    font-size: 4.4em;
+    line-height: .6em;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+    margin-bottom: .2em;
+    margin-top: 2rem;
+    padding-bottom: 0;
+    text-shadow: 0 2px 0 #313848;
+    transform: rotate(0deg);
+}
+
+.titu-casos .titulo:hover {
+    text-shadow: 0 -2px 0 #a7cdf2, 0 2px 0 #124678, 1px 0px 0 #2868a5, 3px 3px 0px rgba(0, 0, 0, 0.1), -3px 4px 0px rgba(0, 0, 0, 0.1), 2px -2px 0px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.1), -150px 580px 0 rgba(27, 104, 178, 0.06);
+
+}
+
+.casos {
+    background: #fff;
+    border-top: 5px solid #0c084c;
+    padding: 5px 20px;
+}
+
+.casos .sub-titulo {
+    padding: 20px 0;
+    text-align: center;
+    color: #0c084c;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.casos .galeria .contenedor-imagen {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.casos .galeria .contenedor-imagen a {
+    background: #3da5e2;
+    display: inline-block;
+    box-shadow: 0 1px 0 black;
+}
+
+.casos .galeria .contenedor-imagen:hover img {
+    opacity: .3;
+}
+
+/* Titulo Pagina Galeria */
+.page-title {
+    position: relative;
+    padding: 70px 0;
+    background-size: auto, cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(/imagenes/fotos/slide1.jpg);
+}
+
+.page-title:before {
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(19, 38, 70, 0.6);
+}
+
+.page-title .title-text h1 {
+    position: relative;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.page-title .title-text .title-menu {
+    padding-left: 0;
+}
+
+.page-title .title-text .title-menu li {
+    position: relative;
+    color: #48bdc5;
+    font-size: 17px;
+    display: inline-block;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.page-title .title-text .title-menu li a {
+    margin-right: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    transition: all 500ms ease;
+}
+
+.page-title .title-text .title-menu li a:hover {
+    color: #48bdc5;
+    transition: all 500ms ease;
+}
+
+
+/********* Filtro de Imagenes   *************/
+.galeria-menu{
+	text-align:center;
+}
+.galeria-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.galeria-item{
+	/*width:100%;*/
+}
+.galeria-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+
+@media only screen and (max-width:767px) {
+
+
+
+}
+
+@media only screen and (max-width:575px) {
+    .page-title {
+        position: relative;
+        padding: 70px 0;
+        background-size: auto, contain;
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-image: url(/imagenes/fotos/slide1.jpg);
+    }
+}
+
+
